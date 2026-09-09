@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Browse selected case studies and web development portfolio from NovaStack Studio. Custom web applications, e-commerce storefronts, brand websites, and UI/UX design.">
+  <title>Selected Work &amp; Case Studies | NovaStack Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="NovaStack Studio Home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>Nova<span>Stack</span> Studio</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation menu"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="process.html">Process</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta" href="contact.html">Start a Project <span>↗</span></a>
+    </nav>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <header class="page-hero">
+    <div class="page-hero-grid"></div>
+    <div class="container page-hero-content">
+      <div class="eyebrow reveal"><i></i> Selected Work · 2024-2026 Portfolio</div>
+      <h1 class="reveal">Work that delivers <em>measurable</em> business <span>impact.</span></h1>
+      <p class="reveal">Every project is built from scratch with an obsessive focus on performance, aesthetic craftsmanship, and real-world conversion metrics.</p>
+      <div class="page-hero-meta reveal">
+        <span class="hero-pill"><i>✦</i> 50+ Projects Shipped</span>
+        <span class="hero-pill"><i>✦</i> 12+ Global Industries</span>
+        <span class="hero-pill"><i>✦</i> 99.4% Avg Performance Score</span>
+        <span class="hero-pill"><i>✦</i> Zero Off-The-Shelf Templates</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Work Portfolio Section -->
+  <main class="section">
+    <div class="container">
+      <!-- Filter Bar -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+        <button class="filter-btn" data-filter="brand">Brand Websites</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+        <button class="filter-btn" data-filter="webapp">Web Applications</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX Systems</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="work-grid equal-grid">
+
+        <!-- Project 01: Atelier North -->
+        <article class="project reveal" data-category="brand uiux">
+          <div class="project-visual visual-a">
+            <div class="mock-browser">
+              <div class="browser-bar"><i></i><i></i><i></i></div>
+              <div class="mock-content">
+                <small>ATELIER / ARCHITECTURE</small>
+                <strong>Form follows<br>feeling.</strong>
+                <div class="mock-line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>Brand Website &amp; Design System</span>
+              <h3>Atelier North Architectural Studio</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Minimalist digital monograph built for an award-winning Scandinavian architectural practice.</p>
+              <div class="project-metric-pill">✦ 99/100 Google Lighthouse · 0.6s Load</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+        <!-- Project 02: Mono Objects -->
+        <article class="project reveal" data-category="ecommerce uiux">
+          <div class="project-visual visual-b">
+            <div class="commerce-card">
+              <small>E-COMMERCE / TOKYO &amp; NYC</small>
+              <strong>Objects<br>with intent.</strong>
+              <div class="circle-product"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>Headless E-Commerce Storefront</span>
+              <h3>Mono Objects Lifestyle Brand</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Custom Shopify Hydrogen storefront with localized multi-currency checkouts and dynamic stock inventory.</p>
+              <div class="project-metric-pill">✦ +140% Checkout Conversion Rate</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+        <!-- Project 03: Pulse Analytics -->
+        <article class="project reveal" data-category="webapp">
+          <div class="project-visual visual-c">
+            <div class="dashboard">
+              <div class="dash-top">NOVA / CLOUD ANALYTICS</div>
+              <div class="chart">
+                <span style="height:35%"></span>
+                <span style="height:55%"></span>
+                <span style="height:43%"></span>
+                <span style="height:72%"></span>
+                <span style="height:61%"></span>
+                <span style="height:91%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>SaaS Analytics Platform</span>
+              <h3>Pulse Real-time Telemetry</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">High-frequency data streaming dashboard processing over 50,000 real-time events per second.</p>
+              <div class="project-metric-pill">✦ &lt; 50ms Query Latency · Supabase &amp; React</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+        <!-- Project 04: Aura Wellness -->
+        <article class="project reveal" data-category="webapp ecommerce">
+          <div class="project-visual visual-d">
+            <div class="mock-app-screen">
+              <div class="app-pill-row">
+                <span>AURA STUDIO</span>
+                <span>MEMBERSHIP PORTAL</span>
+              </div>
+              <div class="app-headline">Holistic health,<br>engineered daily.</div>
+              <div style="font-size: 11px; color: #a996cd;">✦ Interactive Booking Engine · Stripe Recurring Billing</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>Booking App &amp; Subscription Portal</span>
+              <h3>Aura Wellness Collective</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Integrated booking platform with class schedules, recurring Stripe subscriptions, and SMS alerts.</p>
+              <div class="project-metric-pill">✦ 85% Increase in Recurring Members</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+        <!-- Project 05: Apex Logistics -->
+        <article class="project reveal" data-category="webapp brand">
+          <div class="project-visual visual-e">
+            <div class="mock-logistics">
+              <div style="font: 600 10px 'Space Grotesk'; color: #4dc2db; letter-spacing: 1.5px;">APEX / GLOBAL SUPPLY CHAIN</div>
+              <div class="logistics-grid">
+                <div class="logistics-box">
+                  <small>VESSEL TRACKING</small>
+                  <strong>1,420 Active TEU</strong>
+                </div>
+                <div class="logistics-box">
+                  <small>CUSTOMS DISPATCH</small>
+                  <strong>99.8% On-Time</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>Enterprise Logistics Portal</span>
+              <h3>Apex Freight &amp; Marine Operations</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Custom tracking web portal integrated with global marine AIS positioning and automated bill of lading.</p>
+              <div class="project-metric-pill">✦ Automated 12,000+ Monthly Shipments</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+        <!-- Project 06: Zenith Studio -->
+        <article class="project reveal" data-category="brand uiux">
+          <div class="project-visual visual-f">
+            <div class="mock-browser">
+              <div class="browser-bar"><i></i><i></i><i></i></div>
+              <div class="mock-content" style="background: #18130d; color: #e9dcc5;">
+                <small style="color: #ffaa40;">ZENITH / CREATIVE AGENCY</small>
+                <strong style="color: #fff;">Motion in<br>every frame.</strong>
+                <div class="mock-line" style="background: #55432d;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <span>Creative Agency Portfolio &amp; Motion</span>
+              <h3>Zenith Digital Arts Studio</h3>
+              <p style="font-size: 13px; color: var(--text-muted); margin-top: 4px;">Interactive WebGL portfolio featuring fluid cursor physics, smooth state transitions, and dark typography.</p>
+              <div class="project-metric-pill">✦ Awwwards Honorable Mention Nominee</div>
+            </div>
+            <b>↗</b>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Client Testimonials Section -->
+  <section class="section" style="background: #0b0d10; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="container">
+      <div class="section-head center">
+        <span class="section-number">Client Praise</span>
+        <h2>Trusted by founders<br>&amp; <em>visionary</em> teams.</h2>
+        <p>Here is what our partners have to say about our delivery speed, design quality, and technical rigor.</p>
+      </div>
+
+      <div class="about-values-grid">
+        <div class="value-card reveal">
+          <div class="value-card-icon">“</div>
+          <p style="font-size: 14.5px; color: #d6d9e0; margin-bottom: 20px; line-height: 1.65;">
+            “NovaStack completely overhauled our digital presence. Our previous site was sluggish and hard to navigate. The new build loads instantly and our organic inquiry volume doubled within the first 60 days.”
+          </p>
+          <strong style="display: block; font: 600 15px 'Space Grotesk'; color: #fff;">Marcus Lindqvist</strong>
+          <span style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px;">Partner at Atelier North</span>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-card-icon">“</div>
+          <p style="font-size: 14.5px; color: #d6d9e0; margin-bottom: 20px; line-height: 1.65;">
+            “The attention to detail on our e-commerce store was mind-blowing. Checkout friction dropped to zero, and the visual aesthetics reflect our brand identity with absolute elegance.”
+          </p>
+          <strong style="display: block; font: 600 15px 'Space Grotesk'; color: #fff;">Elena Rostova</strong>
+          <span style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px;">Co-Founder of Mono Objects</span>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-card-icon">“</div>
+          <p style="font-size: 14.5px; color: #d6d9e0; margin-bottom: 20px; line-height: 1.65;">
+            “Working with NovaStack felt like having an elite in-house engineering team. They delivered our complex real-time dashboard 10 days ahead of schedule with flawless code quality.”
+          </p>
+          <strong style="display: block; font: 600 15px 'Space Grotesk'; color: #fff;">Devin Thorne</strong>
+          <span style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px;">Head of Product at Pulse SaaS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global CTA Banner -->
+  <section class="cta">
+    <div class="cta-grid"></div>
+    <div class="container cta-inner">
+      <span class="section-kicker">Have an exciting idea?</span>
+      <h2>Let's build your next<br><em>digital milestone.</em></h2>
+      <p>We are currently accepting new projects for Q2 &amp; Q3. Let's discuss your timeline, tech specs, and budget.</p>
+      <a class="btn btn-light" href="contact.html">Start your project inquiry <b>↗</b></a>
+    </div>
+  </section>
+
+  <!-- Comprehensive Studio Footer -->
+  <footer class="footer">
+    <div class="container footer-top-grid">
+      <div class="footer-brand-col">
+        <a class="brand" href="index.html" aria-label="NovaStack Studio Home">
+          <span class="brand-mark"><span></span><span></span><span></span></span>
+          <span>Nova<span>Stack</span> Studio</span>
+        </a>
+        <p>Independent web development studio engineering high-performance websites, e-commerce, and custom digital products.</p>
+        <div class="status-badge">
+          <span class="dot"></span>
+          <span>Available for new projects (Q2/Q3)</span>
+        </div>
+        <div class="time-badge">
+          <span>Colombo Studio Time:</span>
+          <span id="colombo-time">Loading time...</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work &amp; Portfolio</a></li>
+          <li><a href="process.html">Our Process</a></li>
+          <li><a href="about.html">About Studio</a></li>
+          <li><a href="contact.html">Start a Project</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Capabilities</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#business-websites">Business Websites</a></li>
+          <li><a href="services.html#ecommerce">E-Commerce Stores</a></li>
+          <li><a href="services.html#web-apps">Custom Web Apps</a></li>
+          <li><a href="services.html#uiux">UI/UX Design</a></li>
+          <li><a href="services.html#performance">Speed &amp; SEO Audit</a></li>
+          <li><a href="services.html#maintenance">Maintenance &amp; Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <div class="footer-contact-info">
+          <a class="footer-email-link" href="mailto:hello@novastack.studio">hello@novastack.studio</a>
+          <p class="footer-location">Colombo, Sri Lanka<br>Partnering with clients worldwide</p>
+          <div class="social-pills">
+            <a href="https://github.com" target="_blank" rel="noopener" class="social-pill" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-pill" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-pill" aria-label="Twitter">X / Twitter</a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-pill" aria-label="Dribbble">Dribbble</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> NovaStack Studio. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <span>Built with intention &amp; craft.</span>
+        <a href="#">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

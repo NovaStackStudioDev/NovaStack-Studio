@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Start your next web development project with NovaStack Studio. Tell us about your goals, timeline, and budget. Fast 24-hour response guaranteed.">
+  <title>Start a Project &amp; Contact | NovaStack Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="NovaStack Studio Home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>Nova<span>Stack</span> Studio</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation menu"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="process.html">Process</a>
+      <a href="about.html">About</a>
+      <a class="nav-cta active" href="contact.html">Start a Project <span>↗</span></a>
+    </nav>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <header class="page-hero">
+    <div class="page-hero-grid"></div>
+    <div class="container page-hero-content">
+      <div class="eyebrow reveal"><i></i> Project Inquiries · NovaStack Studio</div>
+      <h1 class="reveal">Let's build something <em>extraordinary</em> <span>together.</span></h1>
+      <p class="reveal">Tell us what you're building. Whether you need a ground-up web application, a modern e-commerce storefront, or a complete digital overhaul, we are ready to bring your vision to life.</p>
+      <div class="page-hero-meta reveal">
+        <span class="hero-pill"><i>✦</i> 24-Hour Response Guarantee</span>
+        <span class="hero-pill"><i>✦</i> Free Discovery Consultation</span>
+        <span class="hero-pill"><i>✦</i> Fixed-Scope Estimates</span>
+        <span class="hero-pill"><i>✦</i> NDA Upon Request</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact & Form Section -->
+  <main class="section">
+    <div class="container">
+      <div class="contact-grid-layout">
+
+        <!-- Left: Interactive Inquiry Form -->
+        <div class="contact-form-card reveal">
+          <form id="project-inquiry-form">
+            <!-- Service Interest Chips -->
+            <div class="form-group">
+              <label class="form-label">1. What services are you looking for?</label>
+              <div class="chip-options">
+                <input type="checkbox" id="srv-web" class="chip-checkbox" name="services" value="Business Website" checked>
+                <label for="srv-web" class="chip-label">✦ Business Website</label>
+
+                <input type="checkbox" id="srv-ecom" class="chip-checkbox" name="services" value="E-Commerce">
+                <label for="srv-ecom" class="chip-label">✦ E-Commerce Store</label>
+
+                <input type="checkbox" id="srv-app" class="chip-checkbox" name="services" value="Custom Web App">
+                <label for="srv-app" class="chip-label">✦ Custom Web App</label>
+
+                <input type="checkbox" id="srv-uiux" class="chip-checkbox" name="services" value="UI/UX Design">
+                <label for="srv-uiux" class="chip-label">✦ UI / UX Design</label>
+
+                <input type="checkbox" id="srv-speed" class="chip-checkbox" name="services" value="Speed & SEO">
+                <label for="srv-speed" class="chip-label">✦ Speed &amp; SEO</label>
+
+                <input type="checkbox" id="srv-retainer" class="chip-checkbox" name="services" value="Monthly Retainer">
+                <label for="srv-retainer" class="chip-label">✦ Monthly Retainer</label>
+              </div>
+            </div>
+
+            <!-- Estimated Budget Selection -->
+            <div class="form-group">
+              <label class="form-label">2. Estimated project budget (USD)</label>
+              <div class="chip-options">
+                <input type="radio" id="budget-1" name="budget" class="chip-checkbox" value="< $1,500">
+                <label for="budget-1" class="chip-label">&lt; $1,500</label>
+
+                <input type="radio" id="budget-2" name="budget" class="chip-checkbox" value="$1,500 - $3,500" checked>
+                <label for="budget-2" class="chip-label">$1,500 - $3,500</label>
+
+                <input type="radio" id="budget-3" name="budget" class="chip-checkbox" value="$3,500 - $8,000">
+                <label for="budget-3" class="chip-label">$3,500 - $8,000</label>
+
+                <input type="radio" id="budget-4" name="budget" class="chip-checkbox" value="$8,000+">
+                <label for="budget-4" class="chip-label">$8,000+</label>
+              </div>
+            </div>
+
+            <!-- Desired Timeline -->
+            <div class="form-group">
+              <label class="form-label" for="project-timeline">3. Desired timeline</label>
+              <select id="project-timeline" class="form-select" name="timeline">
+                <option value="Flexible / Exploring">Flexible / Exploring</option>
+                <option value="Urgent (< 3 weeks)">Urgent (&lt; 3 weeks)</option>
+                <option value="1 - 2 Months" selected>1 - 2 Months</option>
+                <option value="3+ Months">3+ Months</option>
+              </select>
+            </div>
+
+            <!-- Contact Information Inputs -->
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="client-name">Your Name *</label>
+                <input type="text" id="client-name" class="form-input" placeholder="e.g. Alex Morgan" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="client-email">Email Address *</label>
+                <input type="email" id="client-email" class="form-input" placeholder="alex@company.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="client-company">Company or Website (Optional)</label>
+              <input type="text" id="client-company" class="form-input" placeholder="e.g. Acme Corp or acme.com">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="project-details">Project Details &amp; Goals *</label>
+              <textarea id="project-details" class="form-textarea" placeholder="Tell us about what you want to achieve, any specific features, links to reference sites, or existing challenges..." required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary form-submit-btn" id="submit-inquiry-btn">
+              Send Project Inquiry <b>↗</b>
+            </button>
+          </form>
+
+          <!-- Interactive Success Message Alert Box -->
+          <div id="form-success-message" class="form-success-alert">
+            <h4>✦ Thank You! Your Inquiry Has Been Received.</h4>
+            <p>Our senior engineering team will review your project requirements and reply to your email within <strong>24 business hours</strong> with initial estimates and next steps.</p>
+          </div>
+        </div>
+
+        <!-- Right: Direct Contact Details & WhatsApp CTA -->
+        <aside class="contact-sidebar reveal">
+          <!-- WhatsApp Card -->
+          <a href="https://wa.me/94704201344?text=Hello%20NovaStack%20Studio,%20I'd%20like%20to%20discuss%20a%20new%20project" target="_blank" rel="noopener" class="whatsapp-cta" aria-label="Direct WhatsApp Message">
+            <div class="whatsapp-info">
+              <strong>Chat Directly via WhatsApp</strong>
+              <span>Fastest response for urgent inquiries</span>
+            </div>
+            <span class="whatsapp-badge">Message ↗</span>
+          </a>
+
+          <!-- Email Direct Card -->
+          <div class="contact-card">
+            <h4>Direct Studio Email</h4>
+            <a href="mailto:hello@novastack.studio" class="contact-val">hello@novastack.studio</a>
+            <p>Send RFPs, tender documents, or project briefs directly to our inbox.</p>
+          </div>
+
+          <!-- Studio Location Card -->
+          <div class="contact-card">
+            <h4>Studio Location</h4>
+            <span class="contact-val" style="font-size: 18px;">Colombo, Sri Lanka</span>
+            <p>Operating across all global timezones (APAC, EMEA, Americas).</p>
+          </div>
+
+          <!-- Response Commitment Card -->
+          <div class="contact-card" style="background: linear-gradient(145deg, #161c16, #101216); border-color: rgba(185, 255, 74, .25);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+              <span class="dot" style="width: 8px; height: 8px; background: var(--accent); border-radius: 50%;"></span>
+              <h4 style="color: var(--accent); margin-bottom: 0;">Our Commitment</h4>
+            </div>
+            <p style="font-size: 13.5px; color: #d1d4dc;">
+              We guarantee a thoughtful, technical response within 24 hours. No generic sales pitches—you speak directly with the architects who will build your product.
+            </p>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Quick FAQ for New Inquiries -->
+  <section class="section" style="background: #0b0d10; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="container">
+      <div class="section-head center">
+        <span class="section-number">Inquiry FAQ</span>
+        <h2>What happens after<br>you submit the <em>form?</em></h2>
+      </div>
+
+      <div class="about-values-grid">
+        <div class="value-card reveal">
+          <div class="value-card-icon">1</div>
+          <h3>Initial Review</h3>
+          <p>We analyze your requirements, tech stack needs, and timeline to prepare preliminary thoughts and feasibility questions.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-card-icon">2</div>
+          <h3>20-Min Discovery Call</h3>
+          <p>We schedule a casual video consultation to align on deliverables, architecture, and exact milestones.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-card-icon">3</div>
+          <h3>Proposal &amp; Kickoff</h3>
+          <p>You receive a fixed-price proposal and sprint timeline. Upon approval, we set up your shared project hub and begin Sprint 1.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Studio Footer -->
+  <footer class="footer">
+    <div class="container footer-top-grid">
+      <div class="footer-brand-col">
+        <a class="brand" href="index.html" aria-label="NovaStack Studio Home">
+          <span class="brand-mark"><span></span><span></span><span></span></span>
+          <span>Nova<span>Stack</span> Studio</span>
+        </a>
+        <p>Independent web development studio engineering high-performance websites, e-commerce, and custom digital products.</p>
+        <div class="status-badge">
+          <span class="dot"></span>
+          <span>Available for new projects (Q2/Q3)</span>
+        </div>
+        <div class="time-badge">
+          <span>Colombo Studio Time:</span>
+          <span id="colombo-time">Loading time...</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Work &amp; Portfolio</a></li>
+          <li><a href="process.html">Our Process</a></li>
+          <li><a href="about.html">About Studio</a></li>
+          <li><a href="contact.html">Start a Project</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Capabilities</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#business-websites">Business Websites</a></li>
+          <li><a href="services.html#ecommerce">E-Commerce Stores</a></li>
+          <li><a href="services.html#web-apps">Custom Web Apps</a></li>
+          <li><a href="services.html#uiux">UI/UX Design</a></li>
+          <li><a href="services.html#performance">Speed &amp; SEO Audit</a></li>
+          <li><a href="services.html#maintenance">Maintenance &amp; Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <div class="footer-contact-info">
+          <a class="footer-email-link" href="mailto:hello@novastack.studio">hello@novastack.studio</a>
+          <p class="footer-location">Colombo, Sri Lanka<br>Partnering with clients worldwide</p>
+          <div class="social-pills">
+            <a href="https://github.com" target="_blank" rel="noopener" class="social-pill" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-pill" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-pill" aria-label="Twitter">X / Twitter</a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener" class="social-pill" aria-label="Dribbble">Dribbble</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> NovaStack Studio. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <span>Built with intention &amp; craft.</span>
+        <a href="#">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
